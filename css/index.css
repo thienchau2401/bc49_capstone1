@@ -21,3 +21,17 @@ header .navbar-brand .logo{
     font-size: .9rem;
     padding-left: 25%;
 }
+/* BANNER */
+.banner .carousel-inner .carousel-caption{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(39,43,54,.5);
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+    padding-left: 10%;
+}
