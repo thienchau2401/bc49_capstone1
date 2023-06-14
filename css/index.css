@@ -22,16 +22,40 @@ header .navbar-brand .logo{
     padding-left: 25%;
 }
 /* BANNER */
+.banner .carousel-inner{
+    height: 100vh;
+}
+.banner .carousel-inner img{
+    object-fit: cover;
+}
 .banner .carousel-inner .carousel-caption{
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(39,43,54,.5);
+    background: rgba(29, 42, 55, 0.7);
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     color: white;
     padding-left: 10%;
+}
+.banner .carousel-inner .carousel-caption h1{
+    font-size: 4rem;
+    line-height: 1;
+    text-align: left;
+}
+.banner .carousel-control-prev{
+    left: 90%;
+}
+.banner .carousel-control-next{
+    left: 95%;
+}
+.banner .carousel-control-prev,.banner .carousel-control-next{
+    top: 90%;
+    width: 0;
+}
+.banner .carousel-control-prev-icon,.banner .carousel-control-next-icon{
+    background-image: none;
 }
