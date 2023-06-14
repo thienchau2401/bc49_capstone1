@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+    color: #636363;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+/* HEADER */
+header .navbar-brand .logo{
+    display: block;
+    font-size: .9rem;
+    padding-left: 25%;
+}
