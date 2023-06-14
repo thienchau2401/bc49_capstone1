@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+    color: #636363;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+/* Corpvision button */
+.corp-bTn{
+    padding: 15px 50px;
+    line-height: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #00a63f;
+    border: 1px solid transparent;
+    color: white;
+}
