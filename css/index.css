@@ -23,6 +23,7 @@ header .navbar-brand .logo{
     flex-direction: column;
     color: white;
     padding-left: 10%;
+    padding-bottom: 10%;
 }
 .banner .carousel-inner .carousel-caption h1{
     font-size: 4rem;
@@ -38,7 +39,27 @@ header .navbar-brand .logo{
 .banner .carousel-control-prev,.banner .carousel-control-next{
     top: 90%;
     width: 0;
+    z-index: 10;
 }
 .banner .carousel-control-prev-icon,.banner .carousel-control-next-icon{
     background-image: none;
+}
+.banner .carousel-control-prev-icon i,.banner .carousel-control-next-icon i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+    color: black;
+    line-height: 50px;
+    position: relative;
+}
+.wave{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9;
+}
+.wave path{
+    fill: white;
 }
