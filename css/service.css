@@ -131,3 +131,59 @@ header .navbar-brand .logo{
 .service .service_content .service_item .card,img {
     border-radius: 0px !important;
 }
+
+/* Industries  */
+.indus .indus_content .indus_title .sub_title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.indus .indus_content .indus_title h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #3f3a64;
+    margin: 20px 0 40px;
+}
+
+.indus .indus_content .indus_group .card {
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: column;
+    padding: 50px 35px;
+    background-color: #f8f9fa;
+    border: none;
+    box-shadow:0 1rem 2rem var(--box-shadow-color);
+    border-radius: 8px;
+}
+
+.indus .indus_content .indus_group .card i {
+    display: inline-block;
+    font-size: 38px;
+    color: #009f4d;
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.indus .indus_content .indus_group .card .text h3 a.titlea {
+    text-decoration: none;
+    display: block;
+    color: #3f3a64;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px !important;
+    transition: all 0.5s;
+}
+
+.indus .indus_content .indus_group .card .text {
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.indus .indus_content .indus_group .card .text p {
+    opacity: 0.8;
+}
+
+.indus .indus_content .indus_group .card .text h3 a:hover {
+    color: #009f4d;
+}
