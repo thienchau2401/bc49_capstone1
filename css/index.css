@@ -74,3 +74,14 @@ header .navbar-brand .logo{
     box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
 
 }
+
+/* Home_Service */
+.home_Service .card{
+    border: 1px solid transparent;
+}
+.home_Service .card .card-body a:first-child{
+    transform: translateY(-2rem);
+    background-color: white;
+    box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+    padding: .5rem 1rem;
+}
