@@ -63,3 +63,14 @@ header .navbar-brand .logo{
 .wave path{
     fill: white;
 }
+/* Home_Dicovery */
+.home_Discovery .discover__item{
+    box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+    transition: all 0.5s;
+    border-radius: .5rem;
+}
+.home_Discovery .discover__item:hover{
+    transform: translateY(-0.25rem);
+    box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
+
+}
