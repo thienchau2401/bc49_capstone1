@@ -299,8 +299,229 @@ header .navbar-brand .logo{
     border: #00732c;
 }
 
+/* Solution  */
+.solution {
+    padding: 70px 0;
+    background-color: #f7f7f7;
+}
+
+.solution .solution_content .title .sub_title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.solution .solution_content .title h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #3f3a64;
+    margin: 20px 0 40px;
+}
+
+.solution .solution_content .solution_group .img {
+    padding: 20px 160px 15px;
+}
+
+.solution .solution_content .solution_group .card {
+    box-shadow: rgba(1, 1, 1, 0.05) 2px 1px 5px 0px;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+
+.solution .solution_content .solution_group .card .card-body {
+   padding: 0;
+   text-align: center;
+}
+
+.solution .solution_content .solution_group h5 {
+    color: #3f3a64;
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    margin: 20px 0;
+}
+
+.solution .solution_content .solution_group .card-text {
+    font-size: 17px;
+    line-height: 27px;
+    opacity: 0.7;
+    margin: 30px 0;
+}
+
+.solution .solution_content .solution_group .card:hover {
+
+    box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
+    animation: upTo 0.5s normal;
+}
+
+/* Footer  */
+footer {
+    background-color: #151421;
+    color: white;
+}
+
+footer .footer_content .footer_top .row .logo {
+    cursor: pointer;
+}
+
+footer .footer_content .footer_top .row .logo a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer_content .footer_top .row .logo a span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: green;
+    font-size: 30px;
+    margin-right: 5px;
+    
+}
+
+footer .footer_content .footer_top .row .logo a .title h4 {
+    font-size: 30px;
+    font-weight: 700 !important;
+    margin: 0;
+}
+
+footer .footer_content .footer_top .row .logo a .title p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+footer .footer_content .footer_top .row .col-4 .description {
+    color: #97a1a9;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+footer .footer_content .footer_top .row .link  a {
+    text-decoration: none;
+    color: #97a1a9;
+    margin-right: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+footer .footer_content .footer_top .row .link a:hover {
+    color: white;
+}
+
+footer .footer_content .footer_top .row h4 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+footer .footer_content .footer_top .row .text p {
+    color: #97a1a9;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+footer .footer_content .footer_top .row .text p a {
+    text-decoration: none;
+    color: #97a1a9;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+footer .footer_content .footer_top .row .text p a:hover {
+    color: white;
+}
+
+footer .footer_content .footer_top .row ul {
+    padding-left: 0;
+}
+
+footer .footer_content .footer_top .row ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+footer .footer_content .footer_top .row ul li a {
+    text-decoration: none;
+    color: #97a1a9;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+footer .footer_content .footer_top .row ul li a:hover {
+    color: white;
+}
+
+footer hr {
+    border: none;
+    width: 100%;
+    height: 0.5px;
+    background-color: #97a1a9;
+}
 
 
+footer .footer_bottom {
+    color:#97a1a9;
+}
+
+footer .footer_bottom p a {
+    text-decoration: none;
+    color:#009f4d;
+}
+
+footer .footer_bottom p a:hover {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes upTo {
+    0% {
+        opacity: 0.9;
+
+        transform:  translateY(0);
+    }
+    
+    100% {
+       opacity: 1;
+        transform: translateY(-4px);
+    }
+}
+
+@media screen and (min-width:576px) {
+    .solution .solution_content .solution_group .img {
+        padding: 20px 190px 15px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .solution .solution_content .solution_group .img {
+        padding: 20px 270px 15px;
+    }
+}
 
 @media screen and (min-width:992px) {
     .tech .tech_content {
@@ -312,7 +533,24 @@ header .navbar-brand .logo{
         width: 50%;
     }
     
+    .solution .solution_content .solution_group .img {
+        padding: 20px 100px 15px;
+    }
 }
+
+@media screen and (min-width:1200px) {
+    .solution .solution_content .solution_group .img {
+        padding: 20px 130px 15px;
+    }
+}
+
+
+@media screen and (min-width:1400px) {
+    .solution .solution_content .solution_group .img {
+        padding: 20px 160px 15px;
+    }
+}
+
 
 
 
