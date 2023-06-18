@@ -29,3 +29,17 @@ a{
     border: 1px solid transparent;
     color: white;
 }
+.title{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+}
+.sub__title{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #7e7d7d;
+    display: block;
+}
