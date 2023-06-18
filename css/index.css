@@ -105,3 +105,34 @@ header .navbar-brand .logo{
     visibility: visible;
     opacity: 1;
 }
+.gallery__item .content__hover{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+    padding: 46px 50px;
+    color: #ffffff;
+    z-index: 2;
+}
+.gallery__item:hover .content__hover{
+    bottom: 0;
+    visibility: visible;
+    opacity: 1;
+}
+/* Bug */
+.home_Gallery a{
+    cursor: default;
+}
+.home_Gallery ,.gallery__item{
+    cursor: pointer;
+}
+.home_Gallery img{
+    width: 100%;
+    transition: all 1s ease;
+    object-fit: cover;
+}
+.gallery__item:hover img{
+    transform: scale(1.2);
+}
