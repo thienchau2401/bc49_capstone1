@@ -137,6 +137,26 @@ header .navbar-brand .logo{
     transform: scale(1.2);
 }
 /* Home Success */
+.home_Success .progress__item__1 h5{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 80%;
+}
+.home_Success .progress__item__2 h5{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 95%;
+}
+.home_Success .progress__item__3 h5{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 60%;
+}
+.home_Success .progress__item__4 h5{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 85%;
+}
 .home_Success .progress {
     display: flex;
     height: 4px;
@@ -168,4 +188,49 @@ header .navbar-brand .logo{
     color: #e5529a;
     background-color: #e77654;
     background-image: linear-gradient(-224deg, #e77654, #e5529a);
+}
+
+.home_Success .progress .bar__1::before, .home_Success .progress .bar__2::before, .home_Success .progress .bar__3::before, .home_Success .progress .bar__4::before{
+    height: 28px;
+    width: 28px;
+    border: 1px solid;
+    opacity: .3;
+}
+.home_Success .progress .bar__1::after, .home_Success .progress .bar__2::after, .home_Success .progress .bar__3::after, .home_Success .progress .bar__4::after{
+    height: 13px;
+    width: 13px;
+    border: 3px solid;
+    background-color: white;
+}
+.home_Success .progress .bar__1::before, .home_Success .progress .bar__1::after{
+    content: "";
+    position: absolute;
+    right: 20%;
+    top: 90%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+}
+.home_Success .progress .bar__2::before, .home_Success .progress .bar__2::after{
+    content: "";
+    position: absolute;
+    right: 5%;
+    top: 90%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+}
+.home_Success .progress .bar__3::before, .home_Success .progress .bar__3::after{
+    content: "";
+    position: absolute;
+    right: 40%;
+    top: 90%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+}
+.home_Success .progress .bar__4::before, .home_Success .progress .bar__4::after{
+    content: "";
+    position: absolute;
+    right: 15%;
+    top: 90%;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
 }
