@@ -352,7 +352,7 @@ header .navbar-brand .logo{
 .solution .solution_content .solution_group .card:hover {
 
     box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
-    animation: upTo 0.5s normal;
+    animation: upTo 0.5s ease 0.3s;
 }
 
 /* Footer  */
@@ -499,14 +499,8 @@ footer .footer_bottom p a:hover {
 
 
 @keyframes upTo {
-    0% {
-        opacity: 0.9;
-
-        transform:  translateY(0);
-    }
     
-    100% {
-       opacity: 1;
+    to {
         transform: translateY(-4px);
     }
 }
