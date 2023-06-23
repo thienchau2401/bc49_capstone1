@@ -271,3 +271,85 @@ header .navbar-brand .logo{
     background-color: #213364;
     transform: scale(1.5);
 }
+/*  */
+.home__news .card {
+    border: 1px solid transparent;
+    box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.04);
+    background-color: #fff;
+}
+.home__news .card a {
+    text-decoration: none;
+}
+
+.home__news .card a {
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+
+.home__news .card a img {
+    
+    object-fit: cover;
+    transition: all 0.5s;
+}
+
+.home__news .card .card-body_top a .sub_title {
+    color: #999;
+    margin-top: 10px ;
+    font-size: 20px;
+    padding: 15px 15px 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.home__news .card .card-body_top a h5 {
+    color: #3f3a64;
+    margin-top: 10px ;
+    border-bottom: 1px solid #eee;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0px 15px 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.home__news .card .card-body_bottom {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 10px;
+    padding: 15px;
+}
+
+.home__news .card .card-body_bottom a {
+    text-decoration: none;
+    color: #3f3a64;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.home__news .card .card-body_bottom p {
+    margin-bottom: 0;
+    color: #999;
+}
+
+.home__news .card .card-body_bottom .left_text p {
+    font-weight: 500;
+}
+
+.home__news .card img:hover{
+    scale: 1.2;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+
+.home__news .card .card-body_top a h5:hover {
+    color: #009f4d;
+}
+
+.home__news .card .card-body_bottom .left_text a {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.home__news .card .card-body_bottom .left_text a:hover {
+    color: #009f4d;
+}
