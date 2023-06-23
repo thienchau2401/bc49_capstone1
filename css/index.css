@@ -234,3 +234,40 @@ header .navbar-brand .logo{
     border-radius: 50%;
     transform: translate(50%, -50%);
 }
+/* Home__feedback */
+.home_feedback .profile__avatar{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.home_feedback .profile__avatar img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.home_feedback .profile__name h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.home_feedback .profile__name p{
+    margin-bottom: 0;
+}
+.home_feedback .carousel-item{
+    height: 40vh;
+}
+.home_feedback .carousel-indicators button{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: none;
+    background-color: #404040;
+    margin-right: 1rem;
+    transition: all 0.5s;
+}
+.home_feedback .carousel-indicators button.active, .home_feedback .carousel-indicators button:hover{
+    background-color: #213364;
+    transform: scale(1.5);
+}
