@@ -271,7 +271,7 @@ header .navbar-brand .logo{
     background-color: #213364;
     transform: scale(1.5);
 }
-/*  */
+/* Home__news */
 .home__news .card {
     border: 1px solid transparent;
     box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.04);
@@ -352,4 +352,50 @@ header .navbar-brand .logo{
 
 .home__news .card .card-body_bottom .left_text a:hover {
     color: #009f4d;
+}
+
+/* home address */
+.home__address{
+    background-image: url(../img/map.png);
+    background-color: #151421;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.home__address .home__form{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50px 1fr auto;
+    max-width: 550px;
+    margin: auto;
+}
+.home__address .home__form input{
+    padding: 14px 20px;
+    font-size: 16px;
+    line-height: 28px;
+    border: 1px solid #eee;
+    outline: none;
+    width: 100%;
+    background: #fff;
+    border-radius: 0;
+    color: #999;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.15);
+    border-left: none;
+}
+.home__address .home__form .home__address__icon{
+    color: #999;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.15);
+    padding: 0 15px;
+    border-radius: .3rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home__address .home__form button{
+    border-radius: 0 0.3rem 0.3rem 0;
 }
