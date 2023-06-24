@@ -541,3 +541,33 @@ footer .footer_bottom p a {
 footer .footer_bottom p a:hover {
     color: white;
 }
+/* Dark Mode */
+#myBody {
+    background-color: white;
+  }
+#switchButton .fa-sun {
+    display: none;
+}
+#switchButton .fa-moon {
+    display: block;
+}
+.dark#myBody {
+    background-color: black;
+}
+
+.dark #switchButton .fa-sun {
+    display: block;
+}
+
+.dark #switchButton .fa-moon {
+    display: none;
+}
+
+.dark .card {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.dark .wave path{
+    fill: #151421;
+}
