@@ -44,9 +44,9 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
 
-  <body>
+  <body id="myBody">
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary d-flex align-content-centers py-3">
+      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary d-flex align-content-centers py-4">
         <div class="container">
           <a class="navbar-brand fs-2 m-0 p-0 lh-1" href="#">
             <i class="fa fa-align-right text-success"></i>
@@ -86,7 +86,10 @@
           </div>
           <div class="header__icon d-none d-lg-block d-xl-block">
             <button class="btn btn-success rounded-circle me-3"><i class="fa fa-search"></i></button>
-            <button class="bg-transparent border-0 text-white"><i class="fa fa-moon"></i></button>
+            <button class="bg-transparent border-0 text-white" id="switchButton">
+              <i class="fa fa-moon"></i>
+              <i class="fa fa-sun"></i>
+            </button>
           </div>
         </div>
         <hr>
@@ -585,7 +588,7 @@
       </div>
     </section>
     <!-- home address -->
-    <section class="home__address my-5 py-5">
+    <section class="home__address mt-5 py-5">
       <div class="container text-center">
         <h2 class="title text-white">Let’s find out how to work together</h2>
         <p class="sub__title text-white w-50 mx-auto">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet. Lorem ipsum dolor sit amet elit.</p>
@@ -681,13 +684,7 @@
     <!-- Light Box -->
     <!-- Header -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-      $(function () {
-        $(document).scroll(function () {
-          var $nav = $(".navbar");
-          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-        });
-      });
+    <script src="./js/header.js">
     </script>
     <!-- Wow   -->
     <script
