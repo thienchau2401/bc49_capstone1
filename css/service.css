@@ -30,26 +30,31 @@ a{
 }
 
 /* HEADER */
-header {
-   position: absolute;
-   left: 0;
-   right: 0;
-   top: 0;
-}
-
-header .navbar {
-    position: relative;
-    padding: 0px;
-    height: 100px;
-    width: 100%;
-    z-index: 10;
-    border-bottom: 1px solid rgba(231, 231, 231, 0.18);
-}
-
 header .navbar-brand .logo{
     display: block;
     font-size: .9rem;
     padding-left: 25%;
+}
+header .navbar{
+    border-bottom: 1px solid rgba(231, 231, 231, 0.18);
+    transition: all 200ms linear;
+}
+header .navbar .nav-link{
+    color: white;
+}
+header .navbar .nav-link.active{
+    color: #009f4d;
+}
+.navbar .scrolled {
+    background-color: white !important;
+    transition: all 200ms linear;
+    padding: .5rem 0 .5rem 0 !important;
+}
+header .navbar.scrolled .navbar-brand span, header .navbar.scrolled .nav-link, header .navbar.scrolled .header__icon button:last-child{
+    color: #3f3a64 !important;
+}
+header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active{
+    color: #009f4d !important;
 }
 
 /* Banner  */
@@ -62,12 +67,9 @@ header .navbar-brand .logo{
     padding: 160px 0 60px;
 }
 
-
-
 .banner .banner_content h2 {
     font-size: 50px;
     font-weight: 700;
-
 }
 
 .banner .banner_content .description {
@@ -475,7 +477,36 @@ footer .footer_bottom p a:hover {
     color: white;
 }
 
+/* Dark Mode */
+#myBody {
+    background-color: white;
+  }
+#switchButton .fa-sun {
+    display: none;
+}
+#switchButton .fa-moon {
+    display: block;
+}
+.dark#myBody {
+    background-color: black;
+}
 
+.dark #switchButton .fa-sun {
+    display: block;
+}
+
+.dark #switchButton .fa-moon {
+    display: none;
+}
+
+.dark .card {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.dark .wave path{
+    fill: #151421;
+}
 
 
 

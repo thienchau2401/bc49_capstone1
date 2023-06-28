@@ -43,33 +43,33 @@
     <link rel="stylesheet" href="./../../css/page_blog_item/page2.css" />
   </head>
 
-  <body>
+  <body id="myBody">
     <!-- Header  -->
     <header>
       <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary d-flex align-content-centers py-4">
         <div class="container">
           <a class="navbar-brand fs-2 m-0 p-0 lh-1" href="#">
-            <i class="fa fa-align-right"></i>
-            <span class="mb-0">Corp Vision</span>
-            <span class="logo">Vision to your Future</span>
+            <i class="fa fa-align-right text-success"></i>
+            <span class="mb-0 text-white">Corp Vision</span>
+            <span class="logo text-white">Vision to your Future</span>
             <!-- <span class="d-block">Vision to your Future</span> -->
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mx-lg-auto ">
+            <ul class="navbar-nav mx-lg-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./../../index.html">HOME</a>
+                <a class="nav-link fw-semibold active" aria-current="page" href="./../../index.html">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./../about.html">ABOUT</a>
+                <a class="nav-link fw-semibold" href="./../about.html">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./../service.html">SERVICES</a>
+                <a class="nav-link fw-semibold" href="./../service.html">SERVICES</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link fw-semibold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   PAGES
                 </a>
                 <ul class="dropdown-menu">
@@ -80,15 +80,19 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./../contact.html">CONTACT</a>
+                <a class="nav-link fw-semibold" href="./../contact.html">CONTACT</a>
               </li>
             </ul>
           </div>
           <div class="header__icon d-none d-lg-block d-xl-block">
-            <i class="fa fa-search"></i>
-            <i class="fa fa-moon"></i>
+            <button class="btn btn-success rounded-circle me-3"><i class="fa fa-search"></i></button>
+            <button class="bg-transparent border-0 text-white" id="switchButton">
+              <i class="fa fa-moon"></i>
+              <i class="fa fa-sun"></i>
+            </button>
           </div>
         </div>
+        <hr>
       </nav>
     </header>
 
@@ -274,6 +278,13 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Light Box -->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+    <!-- Light Box -->
+    <!-- Header -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./../../js/header.js">
+    </script>
     <!-- Wow   -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
