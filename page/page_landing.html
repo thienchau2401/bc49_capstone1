@@ -40,10 +40,917 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./../css/page_landing.css" />
+    <!-- Light Box -->
+    <link rel="stylesheet" href="./../css/style.css">
   </head>
 
-  <body>
+  <body id="myBody">
+    <!-- Header  -->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary d-flex align-content-centers py-4">
+        <div class="container">
+          <a class="navbar-brand fs-2 m-0 p-0 lh-1" href="#">
+            <i class="fa fa-align-right text-success"></i>
+            <span class="mb-0 text-white">Corp Vision</span>
+            <span class="logo text-white">Vision to your Future</span>
+            <!-- <span class="d-block">Vision to your Future</span> -->
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold active" aria-current="page" href="./../index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="./about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="./service.html">SERVICES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link fw-semibold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PAGES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./page_blog.html">BLOG POSTS</a></li>
+                  <li><a class="dropdown-item" href="#">404 PAGE</a></li>
+                  <li><a class="dropdown-item" href="./page_landing.html">LANDING PAGE</a></li>
+                  <li><a class="dropdown-item" href="#">ELEMENTS PAGE</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="./contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__icon d-none d-lg-block d-xl-block">
+            <button class="btn btn-success rounded-circle me-3"><i class="fa fa-search"></i></button>
+            <button class="bg-transparent border-0 text-white" id="switchButton">
+              <i class="fa fa-moon"></i>
+              <i class="fa fa-sun"></i>
+            </button>
+          </div>
+        </div>
+        <hr>
+      </nav>
+    </header>
+
+    <!-- Banner  -->
+    <section class="banner mb-5">
+      <div id="carouselExampleCaptions" class="position-relative overflow-hidden carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./../img/b1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-flex">
+              <h1 class="animate__animated animate__flipInX animate__delay-2s">We will solve your issues<br>our vision to your future</h1>
+              <p class="fs-5 text-start mb-5 mt-3 animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore<br>magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+              <button class="corp-bTn animate__animated animate__fadeInUp animate__delay-3s">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./../img/b2.jpg" class="d-block w-100 img-fluid" alt="...">
+            <div class="carousel-caption d-none d-md-flex">
+              <h1 class="animate__animated animate__fadeInDown animate__delay-2s">Embracing success do our<br>best, need best advice</h1>
+              <p class="fs-5 text-start mb-5 mt-3 animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore<br>magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+              <button class="corp-bTn animate__animated animate__fadeInDown animate__delay-3s">Get Started</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./../img/b3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-flex">
+              <h1 class="animate__animated animate__fadeInUp animate__delay-2s">Digital transformation<br>driven by technology</h1>
+              <p class="fs-5 text-start mb-5 mt-3 animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore<br>magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+              <button class="corp-bTn animate__animated animate__fadeInDown animate__delay-3s">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./../img/b4.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-flex">
+              <h1 class="animate__animated animate__flipInX animate__delay-2s">For those who believe in<br>leaving a mark</h1>
+              <p class="fs-5 text-start mb-5 mt-3 animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore<br>magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+              <button class="corp-bTn animate__animated animate__fadeInUp animate__delay-3s">Contact Now</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa fa-arrow-left"></i></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa fa-arrow-right"></i></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="wave position-absolute">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
+            <path fill-opacity="1">
+              <animate attributeName="d" dur="20000ms" repeatCount="indefinite"
+                values="M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z; M0,160L48,181.3C96,203,192,245,288,234.7C384,224,480,160,576,133.3C672,107,768,117,864,138.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;												 M0,64L48,74.7C96,85,192,107,288,133.3C384,160,480,192,576,170.7C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+                M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;" />
+            </path>
+          </svg>
+        </div>
+      </div>
+      
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about__about my-5 py-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <div class="position-relative p-1">
+              <img src="..img/about2.jpg" alt="" class="img-fluid w-100 rounded-5">
+              <div class="rec position-absolute rounded-1 py-5">
+                <div class="rec__content text-white">
+                  <h2>25+</h2>
+                  <p>Years of<br>Experience.</p>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="sub__title">ABOUT OUR COMPANY</h3>
+            <h2 class="title mb-4">We are the next generation of the business world, creative solutions</h2>
+            <p class="mb-4">Over 25 years, We complete every project with extra care as customer needs.</p>
+            <p class="mb-5">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat consequatur voluptatem ad.
+            </p>
+            <div class="d-flex justify-content-start align-items-center">
+              <button class="btn btn-success px-5 py-3"> Read More</button>
+              <a href="https://www.youtube.com/embed/2N247cY2bEw" data-toggle="lightbox" data-gallery="youtubevideos">
+                <div class="player ms-3"> 
+                  <i class="fa fa-play fs-1"></i>
+                </div>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="about__box d-flex p-5">
+              <i class="fab fa-xing"></i>
+              <div class="box__content">
+                <h3>Perfect Design</h3>
+                <p>Amus a ligula quam tesque et ut justo, Duis sed dolor et amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="about__box d-flex p-5">
+              <i class="fa fa-thumbs-up"></i>
+              <div class="box__content">
+                <h3>Carefully Planned</h3>
+                <p>Amus a ligula quam tesque et ut justo, Duis sed dolor et amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="about__box d-flex p-5">
+              <i class="fab fa-angellist"></i>
+              <div class="box__content">
+                <h3>Smartly Execute</h3>
+                <p>Amus a ligula quam tesque et ut justo, Duis sed dolor et amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Home Discovery -->
+    <section class="home_Discovery bg-light pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="mb-2">EVERY DAY BRINGS NEW CHALLENGES</p>
+            <h2 class="mb-4 text-black fw-bolder">Creative agency focused on<br> vision, product and people</h2>
+            <p class="pe-5 mb-5">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit. Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.</p>
+            <a href="#home__About" class="btn btn-success px-5 py-3 mb-5">Discovery More</a>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="discover__item p-5 mb-4 bg-white text-center">
+                  <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/icon1.png" alt="" class="img-fluid">
+                  <h5 class="mt-3 fw-bold">Our Process</h5>
+                </div>  
+              </div>
+              <div class="col-lg-6">
+                <div class="discover__item p-5 mb-4 bg-white text-center">
+                  <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/icon2.png" alt="" class="img-fluid">
+                  <h5 class="mt-3 fw-bold">How We Help</h5>
+                </div> 
+              </div>
+              <div class="col-lg-6">
+                <div class="discover__item p-5 mb-4 bg-white text-center">
+                  <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/icon3.png" alt="" class="img-fluid">
+                  <h5 class="mt-3 fw-bold">UI/UX Design</h5>
+                </div>   
+              </div>
+              <div class="col-lg-6">
+                <div class="discover__item p-5 mb-4 bg-white text-center">
+                  <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/icon4.png" alt="" class="img-fluid">
+                  <h5 class="mt-3 fw-bold">Creative Ideas</h5>
+                </div>   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Industries  -->
+    <section class="indus">
+      <div class="container">
+        <div class="indus_content">
+          <div class="indus_title text-center">
+            <div class="sub_title">BEAUTIFULLY CRAFTED CREATIVE SOLUTIONS</div>
+            <h2>What industries we serve?</h2>
+          </div>
+          <div class="indus_group">
+            <div class="row row-cols-lg-3 row-cols-1 row-cols-md-2 text-center g-4 ">
+              <div class="col text-start">
+                <div class="card">
+                  <i class="fa-regular fa-money-bill-1" aria-hidden="true"></i>
+                  <div class="text py-2">
+                    <h3>
+                      <a class="titlea" href="#">Investment Planning</a>
+                    </h3>
+                    <p class="mb-0">Amus a ligula quam tesque et ut <br> justo, Duis sed dolor et amet.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col text-start">
+                <div class="card">
+                  <i class="fa-solid fa-file-lines"></i>
+                  <div class="text py-2">
+                    <h3>
+                      <a class="titlea" href="#">
+                        Commercial Projects</a>
+                    </h3>
+                    <p class="mb-0">Amus a ligula quam tesque et ut <br> justo, Duis sed dolor et amet.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col text-start">
+                <div class="card">
+                  <i class="fa-solid fa-building"></i>
+                  <div class="text py-2">
+                    <h3>
+                      <a class="titlea" href="#">Banking & Finance</a>
+                    </h3>
+                    <p class="mb-0">Amus a ligula quam tesque et ut <br> justo, Duis sed dolor et amet.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col text-start">
+                <div class="card">
+                  <i class="fa-regular fa-clone"></i>
+                  <div class="text py-2">
+                    <h3>
+                      <a class="titlea" href="#">
+                        Competitive Research</a>
+                    </h3>
+                    <p class="mb-0">Amus a ligula quam tesque et ut <br> justo, Duis sed dolor et amet.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col text-start">
+                <div class="card">
+                  <i class="fa-solid fa-code"></i>
+                  <div class="text py-2">
+                    <h3>
+                      <a class="titlea" href="#">
+                        International Business</a>
+                    </h3>
+                    <p class="mb-0">Amus a ligula quam tesque et ut <br> justo, Duis sed dolor et amet.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col text-start">
+                <div class="card">
+                  <i class="fa-solid fa-chart-column"></i>
+                  <div class="text py-2">
+                    <h3>
+                      <a class="titlea" href="#">
+                        Strategic Approach</a>
+                    </h3>
+                    <p class="mb-0">Amus a ligula quam tesque et ut <br> justo, Duis sed dolor et amet.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery  -->
+    <section class="home_Gallery bg-light">
+      <div class="container text-center py-5">
+        <h5 class="text-secondary">OUR GALLERY</h5>
+        <h2 class="text-black">Successful projects we've done</h2>
+        <div class="row">
+          <a href="./../img/c1.jpg" data-toggle="lightbox" data-caption="image 1 of 6" data-gallery="example-gallery" class="col-sm-4 p-3 h-50">
+            <div class="gallery__item position-relative overflow-hidden">
+              <img src="./../img/c1.jpg" class="img-fluid">
+              <div class="overlay__hover"></div>
+              <div class="content__hover">
+                <h2>Project 1</h2>
+                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+              </div>
+            </div>
+          </a>
+          <a href="./../img/c2.jpg" data-toggle="lightbox" data-caption="image 2 of 6" data-gallery="example-gallery" class="col-sm-4 p-3 h-50">
+            <div class="gallery__item position-relative overflow-hidden">
+              <img src="./../img/c2.jpg" class="img-fluid">
+              <div class="overlay__hover"></div>
+              <div class="content__hover">
+                <h2>Project 2</h2>
+                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+              </div>
+            </div>
+          </a>
+          <a href="./../img/c3.jpg" data-toggle="lightbox" data-caption="image 3 of 6" data-gallery="example-gallery" class="col-sm-4 p-3 h-50">
+            <div class="gallery__item position-relative overflow-hidden">
+              <img src="./../img/c3.jpg" class="img-fluid">
+              <div class="overlay__hover"></div>
+              <div class="content__hover">
+                <h2>Project 3</h2>
+                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="row">
+          <a href="./../img/c4.jpg" data-toggle="lightbox" data-caption="image 4 of 6" data-gallery="example-gallery" class="col-sm-4 p-3 h-50">
+            <div class="gallery__item position-relative overflow-hidden">
+              <img src="./../img/c4.jpg" class="img-fluid">
+              <div class="overlay__hover"></div>
+              <div class="content__hover">
+                <h2>Project 4</h2>
+                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+              </div>
+            </div>
+          </a>
+          <a href="./../img/c5.jpg" data-toggle="lightbox" data-caption="image 5 of 6" data-gallery="example-gallery" class="col-sm-4 p-3 h-50">
+            <div class="gallery__item position-relative overflow-hidden">
+              <img src="./../img/c5.jpg" class="img-fluid">
+              <div class="overlay__hover"></div>
+              <div class="content__hover">
+                <h2>Project 5</h2>
+                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+              </div>
+            </div>
+          </a>
+          <a href="./../img/c6.jpg" data-toggle="lightbox" data-caption="image 6 of 6" data-gallery="example-gallery" class="col-sm-4 p-3 h-50">
+            <div class="gallery__item position-relative overflow-hidden">
+              <img src="./../img/c6.jpg" class="img-fluid">
+              <div class="overlay__hover"></div>
+              <div class="content__hover">
+                <h2>Project 6</h2>
+                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <hr>
+        <div class="row justify-content-center"> 
+          <div class="col-lg-2 col-md-3 col-4">
+            <img src="./../img/brand1.png" alt=""
+              class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <img src="./../img/brand6.png" alt=""
+              class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <img src="./../img/brand3.png" alt=""
+              class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 mt-md-0 mt-4">
+            <img src="./../img/brand4.png" alt=""
+              class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 mt-lg-0 mt-4">
+            <img src="./../img/brand5.png" alt=""
+              class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Success  -->
+    <section class="home_Success py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6">
+            <img src="./../img/about.jpg" alt="" class="img-fluid rounded-1">
+          </div>
+          <div class="col-12 col-lg-6">
+            <p class="sub__title">YOUR SUCCESS IS OUR SUCCESS</p>
+            <h2 class="title mb-5">Web design, marketing & SEO solutions that get results</h2>
+            <div class="progress__item progress__item__1 mb-4 position-relative">
+              <h5 class="progress__title">
+                Marketing
+                <span>80%</span>
+              </h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bar__1" role="progressbar" style="width: 80%" aria-valuenow="80"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress__item progress__item__2 mb-4 position-relative">
+              <h5 class="progress__title">
+                Responsive Web design
+                <span>95%</span>
+              </h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bar__2" role="progressbar" style="width: 95%" aria-valuenow="95"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress__item progress__item__3 mb-4 position-relative">
+              <h5 class="progress__title">
+                Analytics
+                <span>60%</span>
+              </h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bar__3" role="progressbar" style="width: 60%" aria-valuenow="60"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress__item progress__item__4 mb-4 position-relative">
+              <h5 class="progress__title">
+                Web Development
+                <span>85%</span>
+              </h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bar__4" role="progressbar" style="width: 85%" aria-valuenow="85"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feedback  -->
+    <section class="home_feedback bg-light my-5 py-5">
+      <div class="container text-center">
+        <p class="sub__title">HAPPY CLIENTS FEEDBACK</p>
+        <h2 class="title">Reviews and Testimonials</h2>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="feed__back__content d-block p-5 w-75 mx-auto">
+                <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                  Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Esse architecto est ea sunt eligendi cum?</p>
+                <div class="feedback__profile d-flex justify-content-center align-items-center">
+                  <div class="profile__avatar me-3 ">
+                    <img src="./../img/team1.jpg" alt="">
+                  </div>
+                  <div class="profile__name text-start">
+                    <h3>
+                      John wilson
+                    </h3>
+                    <p>Student</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="feed__back__content d-block p-5 w-75 mx-auto">
+                <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                  voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                  Dolores molestias adipisci dolo amet!.</p>
+                <div class="feedback__profile d-flex justify-content-center align-items-center">
+                  <div class="profile__avatar me-3 ">
+                    <img src="./../img/team2.jpg" alt="">
+                  </div>
+                  <div class="profile__name text-start">
+                    <h3>
+                      Julia sakura
+                    </h3>
+                    <p>Student</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="feed__back__content d-block p-5 w-75 mx-auto">
+                <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                  voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                  Dolores molestias adipisci dolo amet!.</p>
+                <div class="feedback__profile d-flex justify-content-center align-items-center">
+                  <div class="profile__avatar me-3 ">
+                    <img src="./../img/team3.jpg" alt="">
+                  </div>
+                  <div class="profile__name text-start">
+                    <h3>
+                      Roy linderson
+                    </h3>
+                    <p>Student</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="feed__back__content d-block p-5 w-75 mx-auto">
+                <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                  voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                  Dolores molestias adipisci dolo amet!.</p>
+                <div class="feedback__profile d-flex justify-content-center align-items-center">
+                  <div class="profile__avatar me-3 ">
+                    <img src="./../img/team4.jpg" alt="">
+                  </div>
+                  <div class="profile__name text-start">
+                    <h3>
+                      Smith Johnson
+                    </h3>
+                    <p>Student</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us  -->
+    <section id="home__About" class="home__About mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <h5>ABOUT US</h5>
+            <h2 class="text-black">We make the best strategies for you, Enhancing your success</h2>
+            <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut ex ea.</p>
+            <ul class="list-unstyled">
+              <li class="mb-3"><a href="#" class="text-black fw-bold"><i class="fa fa-check-circle text-success"></i> UI/UX Design and Development</a></li>
+              <li class="mb-3"><a href="#" class="text-black fw-bold"><i class="fa fa-check-circle text-success"></i> Branding Design and Identity</a></li>
+              <li class="mb-3"><a href="#" class="text-black fw-bold"><i class="fa fa-check-circle text-success"></i> Mobile App Design and Development</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-6">
+            <img src="./../img/a.jpg" alt="" class="rounded img-fluid">
+          </div>
+          <div class="col-lg-3 col-6 mt-4">
+            <img src="./../img/c1.jpg" alt="" class="rounded img-fluid mb-md-3 mb-2">
+            <img src="./../img/c4.jpg" alt="" class="rounded img-fluid mt-md-3">
+          </div>
+        </div>
+      </div>      
+    </section>
+
+    <!-- Strategy -->
+    <section class="about__strategy">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="sub__title">WEB DESIGN AND DIGITAL MARKETING</p>
+            <h2 class="title">We think strategy, UX design, and<br>web development</h2>
+            <div class="strategy__numb d-flex mt-5">
+              <div class="strategy__numb__content">
+                <h2 class="text-success">1200+</h2>
+                <h5 class="text-black">Happy Clients</h5>
+                <p>We help our clients increase profits by increasing their visibility online.</p>
+              </div>
+              <div class="strategy__numb__content">
+                <h2 class="text-success">13k+</h2>
+                <h5 class="text-black">Completed projects</h5>
+                <p>We help our clients increase profits by increasing their visibility online.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <img src="../img/ab.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-3 col-6">
+            <img src="../img/ab2.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Generation -->
+    <section class="about__generation py-5 mb-5">
+      <div class="overlay"></div>
+      <div class="container text-center">
+        <h2 class="title text-white w-75 mx-auto mb-3">We are the next generation of the business<br>world, creative solutions</h2>
+        <p class="text-white w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit sunt in culpa qui officia sed deserunt<br>mollit anim id est laborum mollit anim id est nulla.</p>
+        <a href="https://www.youtube.com/embed/2N247cY2bEw" data-toggle="lightbox" data-gallery="youtubevideos">
+          <div class="player mx-auto border-white">
+            <i class="fa fa-play fs-1 text-white"></i>
+          </div> 
+        </a>
+      </div>  
+    </section>
+
+    <!-- Professionals -->
+    <section class="about__profess py-5 my-5">
+      <div class="container text-center">
+        <p class="sub__title">OUR PROFESSIONALS</p>
+        <h3 class="title mb-5">Meet the Team</h3>
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="card border-0">
+              <div class="profess__card__top position-relative overflow-hidden">
+                <img class="card-img-top img-fluid rounded-3" src="../img/team1.jpg" alt="Title">
+                <div class="overlay__hover rounded-3"></div>
+                <div class="content__hover">
+                  <p>Our web design team will spend time with our digital marketing team.</p>
+                  <div class="d-flex gap-3 justify-content-center">
+                    <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                    <a href="#"><i class="fab fa-twitter text-white"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g text-white"></i></a>
+                    <a href="#"><i class="fa fa-envelope text-white"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title"><a href="#" class="text-black">Amelia Jessica</a></h4>
+                <p class="card-text"> Designer</p> 
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card border-0">
+              <div class="profess__card__top position-relative overflow-hidden">
+              <img class="card-img-top img-fluid rounded-3" src="../img/team2.jpg" alt="Title">
+              <div class="overlay__hover rounded-3"></div>
+              <div class="content__hover">
+                <p>Our web design team will spend time with our digital marketing team.</p>
+                <div class="d-flex gap-3 justify-content-center">
+                  <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                  <a href="#"><i class="fab fa-twitter text-white"></i></a>
+                  <a href="#"><i class="fab fa-google-plus-g text-white"></i></a>
+                  <a href="#"><i class="fa fa-envelope text-white"></i></a>
+                </div>
+              </div>
+            </div>
+              <div class="card-body">
+                <h4 class="card-title"><a href="#" class="text-black">Elizabeth Tracy</a></h4>
+                <p class="card-text"> Photographer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card border-0">
+              <div class="profess__card__top position-relative overflow-hidden">
+                <img class="card-img-top img-fluid rounded-3" src="../img/team3.jpg" alt="Title">
+                <div class="overlay__hover rounded-3"></div>
+                <div class="content__hover">
+                  <p>Our web design team will spend time with our digital marketing team.</p>
+                  <div class="d-flex gap-3 justify-content-center">
+                    <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                    <a href="#"><i class="fab fa-twitter text-white"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g text-white"></i></a>
+                    <a href="#"><i class="fa fa-envelope text-white"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title"><a href="#" class="text-black">Charlotte Ava</a></h4>
+                <p class="card-text"> Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card border-0">
+              <div class="profess__card__top position-relative overflow-hidden">
+                <img class="card-img-top img-fluid rounded-3" src="../img/team4.jpg" alt="Title">
+                <div class="overlay__hover rounded-3"></div>
+                <div class="content__hover">
+                  <p>Our web design team will spend time with our digital marketing team.</p>
+                  <div class="d-flex gap-3 justify-content-center">
+                    <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                    <a href="#"><i class="fab fa-twitter text-white"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g text-white"></i></a>
+                    <a href="#"><i class="fa fa-envelope text-white"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title"><a href="#" class="text-black">Emma Susan</a></h4>
+                <p class="card-text"> Designer</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+    <!-- Content  -->
+    <section class="content">
+      <div class="container">
+        <div class="content_content">
+          <div class="content_top">
+            <div class="top_title text-center mb-5">
+              <h3>We are a full-service creative agency</h3>
+              <p>Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est. Quisque ut lectus <br> consequat, eros et.</p>
+            </div>
+            <div class="top_infor">
+              <div class="row row-cols-1 row-cols-lg-3  g-4">
+                <div class="col">
+                  <div class="item">
+                    <div class="icon py-2">
+                      <i class="fa-regular fa-map"></i>
+                    </div>
+                    <div class="text py-3 ">
+                      <h4>Our Location:</h4>
+                      <p>Corp Vision, 343 marketing, #21 <br> cravel 1st lane street, NY - 62617.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="item">
+                    <div class="icon py-2 ps-4">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <div class="text py-3 ">
+                      <h4>
+                        Give us a call</h4>
+                      <p>
+                        <a href="tel:+12 404-11-22-89">+12 404-11-22-89</a>
+                        <a href="tel:+12 404-11-22-99">+12 404-11-22-99</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="item">
+                    <div class="icon py-2">
+                      <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="text py-3 ">
+                      <h4>
+                        Help Desk</h4>
+                      <p>
+                        <a href="mailto:company@gmail.com">company@gmail.com</a>
+                        <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content_map">
+            <div class="map ">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d774386.6120952538!2d-74.2598661!3d40.6971494!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1687066306154!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+              <div class="m-2">
+                <div class="direction bg-white">
+                  <div class="direction_icon text-center px-1 py-2 text-danger">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="direction_infor px-2 py-1 py-md-2">
+                    <div class="top"></div>
+                    <hr>
+                    <div class="bottom"></div>
+                    <a href="#">More options</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content_bottom py-5">
+            <div class="bottom_title text-center mb-5">
+              <h4>Let's talk about your project</h4>
+              <p>We have made it easy for clients to reach us and get their solutions weaved</p>
+            </div>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <input type="email" class="form-control" id="inputName4" placeholder="Name">
+              </div>
+              <div class="col-md-6">
+                <input type="number" class="form-control" id="inputPassword4" placeholder="Your Phone Number">
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email*">
+              </div>
+              <div class="col-md-6">
+                <input type="password" class="form-control" id="inputSubject4" placeholder="Subject">
+              </div>
+              <div class="col-md-12">
+                <textarea class="form-control w-100" name="" id="inputMassage4" cols="30" rows="5" placeholder="Massege*"></textarea>
+              </div>
+              <div class="button col-12 text-end">
+                <button type="submit" class="btn btn-primary">Submit Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- home address -->
+    <section class="home__address  py-5">
+      <div class="container text-center">
+        <h2 class="title text-white">Let’s find out how to work together</h2>
+        <p class="sub__title text-white w-50 mx-auto">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet. Lorem ipsum dolor sit amet elit.</p>
+        <div class="home__form my-5">
+          <div class="home__address__icon">
+            <i class="fa fa-paper-plane"></i>
+          </div>
+          <input type="email" name="email" placeholder="Your Email Address" required="">
+          <button class="btn btn-success">Subscribe</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer>
+      <hr>
+      <div class="container">
+          <div class="footer_content">
+              <div class="footer_top">
+                  <div class="row ">
+                      <div class="col- p-4 col-lg-4 col-md-6">
+                          <div class="logo mb-2">
+                              <a class="d-flex justify-content-start " href="#">
+                                  <span class="fa-solid fa-align-right"></span>
+                                  <div class="title ">
+                                     <h4>Corp Vision</h4>
+                                     <p>Vision to your Future</p>
+                                  </div>
+                              </a>
+                          </div>
+                          <p class="description">Lorem ipsum viverra feugiat. Pellen tesque <br> libero ut justo, ultrices in ligula. Semper at <br> tempufddfel. Lorem ipsum dolor sit amet <br> Semper at elit team advisors.</p>
+                          <div class="link pt-3">
+                              <a href="#">
+                                  <span class="fa-brands fa-facebook-f"></span>
+                              </a>
+                              <a href="#">
+                                  <i class="fa-brands fa-twitter"></i>
+                              </a>
+                              <a href="#">
+                                  <i class="fa-brands fa-instagram"></i>
+                              </a>
+                              <a href="#">
+                                  <i class="fa-brands fa-linkedin-in"></i>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="col- p-4 col-lg-4 col-md-6">
+                          <h4 class="mb-4">CONTACT INFO</h4>
+                          <div class="text ">
+                              <p class="mb2">Address : Corp Vision, 343 marketing, #21 <br> cravel 1st lane street, NY - 62617.</p>
+                              <p class="mb-2">Phone Number : <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a></p>
+                              <p class="mb-2">Email : <a href="mailto:info@example.com">info@example.com</a></p>
+                              <p class="mb-2">Support : <a href="mailto:info@support.com">info@support.com</a></p>
+                          </div>
+                      </div>
+                      <div class="col- p-4 col-lg-2 col-md-6 ">
+                          <h4 class="mb-4">CATEGORIES</h4>
+                          <ul>
+                              <li><a href="#">Marketing Strategy</a></li>
+                              <li><a href="#">Startup Business</a></li>
+                              <li><a href="#">Web development</a></li>
+                          </ul>
+                      </div>
+                      <div class="col- p-4 col-lg-2 col-md-6">
+                          <h4 class="mb-4">META</h4>
+                          <ul>
+                              <li><a href="#">Log in</a></li>
+                              <li><a href="#">Entries feed</a></li>
+                              <li><a href="#">Comments feed</a></li>
+                              <li><a href="#">WordPress.org</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <hr>
+      <div class="footer_bottom text-center py-3">
+          <p>© 2023 Corp Vision All Rights Reserved | WordPress Theme by <a href="#">W3Layouts</a> .</p>
+      </div>
+    </footer>
+  
+    
+
+    
+
+
+
+
+
+      
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -56,6 +963,14 @@
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
     ></script>
+
+     <!-- Light Box -->
+     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+     <!-- Light Box -->
+    <!-- Header -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./../js/header.js">
+    </script>
 
     <!-- Wow   -->
     <script
