@@ -67,3 +67,7 @@ header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active{
     font-size: 2rem;
     color: #009f4d;
 }
+/*  */
+.about__strategy {
+    background-color: #f8f9fa;
+}
