@@ -39,11 +39,402 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/about.css" />
   </head>
 
   <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary d-flex align-content-centers py-4">
+        <div class="container">
+          <a class="navbar-brand fs-2 m-0 p-0 lh-1" href="#">
+            <i class="fa fa-align-right text-success"></i>
+            <span class="mb-0 text-white">Corp Vision</span>
+            <span class="logo text-white">Vision to your Future</span>
+            <!-- <span class="d-block">Vision to your Future</span> -->
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="./page/about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="./page/service.html">SERVICES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link fw-semibold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PAGES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./page/page_blog.html">BLOG POSTS</a></li>
+                  <li><a class="dropdown-item" href="#">404 PAGE</a></li>
+                  <li><a class="dropdown-item" href="./page/page_landing.html">LANDING PAGE</a></li>
+                  <li><a class="dropdown-item" href="#">ELEMENTS PAGE</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="./page/contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__icon d-none d-lg-block d-xl-block">
+            <button class="btn btn-success rounded-circle me-3"><i class="fa fa-search"></i></button>
+            <button class="bg-transparent border-0 text-white" id="switchButton">
+              <i class="fa fa-moon"></i>
+              <i class="fa fa-sun"></i>
+            </button>
+          </div>
+        </div>
+        <hr>
+      </nav>
+    </header>
+    <!-- Banner -->
+    <section class="banner">
+      <div class="banner_content">
+        <div class="overlay"></div>
+        <div class="container ">
+          <div class="py-4 text-center">
+            <h2 class="text-white">Services</h2>
+            <p class="description">We work with bold brands that we believe in</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section class="about__about my-5 py-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <div class="position-relative p-1">
+              <img src="../img/about2.jpg" alt="" class="img-fluid w-100 rounded-5">
+              <div class="rec position-absolute rounded-1 py-5">
+                <div class="rec__content text-white">
+                  <h2>25+</h2>
+                  <p>Years of<br>Experience.</p>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="sub__title">ABOUT OUR COMPANY</h3>
+            <h2 class="title mb-4">We are the next generation of the business world, creative solutions</h2>
+            <p class="mb-4">Over 25 years, We complete every project with extra care as customer needs.</p>
+            <p class="mb-5">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat consequatur voluptatem ad.
+            </p>
+            <div class="d-flex justify-content-start align-items-center">
+              <button class="btn btn-success px-5 py-3"> Read More</button>
+              <a href="https://www.youtube.com/embed/2N247cY2bEw" data-toggle="lightbox" data-gallery="youtubevideos">
+                <div class="player ms-3"> 
+                  <i class="fa fa-play fs-1"></i>
+                </div>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="about__box d-flex p-5">
+              <i class="fab fa-xing"></i>
+              <div class="box__content">
+                <h3>Perfect Design</h3>
+                <p>Amus a ligula quam tesque et ut justo, Duis sed dolor et amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="about__box d-flex p-5">
+              <i class="fa fa-thumbs-up"></i>
+              <div class="box__content">
+                <h3>Carefully Planned</h3>
+                <p>Amus a ligula quam tesque et ut justo, Duis sed dolor et amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="about__box d-flex p-5">
+              <i class="fab fa-angellist"></i>
+              <div class="box__content">
+                <h3>Smartly Execute</h3>
+                <p>Amus a ligula quam tesque et ut justo, Duis sed dolor et amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Strategy -->
+    <section class="about__strategy">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="sub__title">WEB DESIGN AND DIGITAL MARKETING</p>
+            <h2 class="title">We think strategy, UX design, and<br>web development</h2>
+            <div class="strategy__numb d-flex mt-5">
+              <div class="strategy__numb__content">
+                <h2 class="text-success">1200+</h2>
+                <h5 class="text-black">Happy Clients</h5>
+                <p>We help our clients increase profits by increasing their visibility online.</p>
+              </div>
+              <div class="strategy__numb__content">
+                <h2 class="text-success">13k+</h2>
+                <h5 class="text-black">Completed projects</h5>
+                <p>We help our clients increase profits by increasing their visibility online.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <img src="../img/ab.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-3 col-6">
+            <img src="../img/ab2.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Generation -->
+    <section class="about__generation py-5 mb-5">
+      <div class="overlay"></div>
+      <div class="container text-center">
+        <h2 class="title text-white w-75 mx-auto mb-3">We are the next generation of the business<br>world, creative solutions</h2>
+        <p class="text-white w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit sunt in culpa qui officia sed deserunt<br>mollit anim id est laborum mollit anim id est nulla.</p>
+        <a href="https://www.youtube.com/embed/2N247cY2bEw" data-toggle="lightbox" data-gallery="youtubevideos">
+          <div class="player mx-auto border-white">
+            <i class="fa fa-play fs-1 text-white"></i>
+          </div> 
+        </a>
+      </div>  
+    </section>
+    <!-- Professionals -->
+    <section class="about__profess py-5 my-5">
+      <div class="container text-center">
+        <p class="sub__title">OUR PROFESSIONALS</p>
+        <h3 class="title mb-5">Meet the Team</h3>
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="card border-0">
+              <div class="profess__card__top position-relative overflow-hidden">
+                <img class="card-img-top img-fluid rounded-3" src="../img/team1.jpg" alt="Title">
+                <div class="overlay__hover rounded-3"></div>
+                <div class="content__hover">
+                  <p>Our web design team will spend time with our digital marketing team.</p>
+                  <div class="d-flex gap-3 justify-content-center">
+                    <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                    <a href="#"><i class="fab fa-twitter text-white"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g text-white"></i></a>
+                    <a href="#"><i class="fa fa-envelope text-white"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title"><a href="#" class="text-black">Amelia Jessica</a></h4>
+                <p class="card-text"> Designer</p> 
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card border-0">
+              <div class="profess__card__top position-relative overflow-hidden">
+              <img class="card-img-top img-fluid rounded-3" src="../img/team2.jpg" alt="Title">
+              <div class="overlay__hover rounded-3"></div>
+              <div class="content__hover">
+                <p>Our web design team will spend time with our digital marketing team.</p>
+                <div class="d-flex gap-3 justify-content-center">
+                  <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                  <a href="#"><i class="fab fa-twitter text-white"></i></a>
+                  <a href="#"><i class="fab fa-google-plus-g text-white"></i></a>
+                  <a href="#"><i class="fa fa-envelope text-white"></i></a>
+                </div>
+              </div>
+            </div>
+              <div class="card-body">
+                <h4 class="card-title"><a href="#" class="text-black">Elizabeth Tracy</a></h4>
+                <p class="card-text"> Photographer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card border-0">
+              <div class="profess__card__top position-relative overflow-hidden">
+                <img class="card-img-top img-fluid rounded-3" src="../img/team3.jpg" alt="Title">
+                <div class="overlay__hover rounded-3"></div>
+                <div class="content__hover">
+                  <p>Our web design team will spend time with our digital marketing team.</p>
+                  <div class="d-flex gap-3 justify-content-center">
+                    <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                    <a href="#"><i class="fab fa-twitter text-white"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g text-white"></i></a>
+                    <a href="#"><i class="fa fa-envelope text-white"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title"><a href="#" class="text-black">Charlotte Ava</a></h4>
+                <p class="card-text"> Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card border-0">
+              <div class="profess__card__top position-relative overflow-hidden">
+                <img class="card-img-top img-fluid rounded-3" src="../img/team4.jpg" alt="Title">
+                <div class="overlay__hover rounded-3"></div>
+                <div class="content__hover">
+                  <p>Our web design team will spend time with our digital marketing team.</p>
+                  <div class="d-flex gap-3 justify-content-center">
+                    <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                    <a href="#"><i class="fab fa-twitter text-white"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g text-white"></i></a>
+                    <a href="#"><i class="fa fa-envelope text-white"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title"><a href="#" class="text-black">Emma Susan</a></h4>
+                <p class="card-text"> Designer</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+    <!-- Reason -->
+    <section class="my-5 py-5 about__reason">
+      <div class="container text-center">
+        <p class="sub__title">WHY CHOOSE US</p>
+        <h2 class="title mb-md-1 mb-md-3">People choose us because we serve the<br>best for everyone</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="about__box d-flex align-items-center p-lg-5">
+              <i class="fa fa-briefcase me-5"></i>
+              <div class="box__content text-start">
+                <a href="#" class="text-black"><h3>Planning your business</h3></a>
+                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio adipisicing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about__box about__box__2 d-flex align-items-center p-lg-5">
+              <i class="fa fa-cogs me-5"></i>
+              <div class="box__content text-start">
+                <a href="#" class="text-black"><h3>Create business process</h3></a>
+                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio adipisicing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about__box about__box__3 d-flex align-items-center p-lg-5">
+              <i class="fa fa-search-plus me-5"></i>
+              <div class="box__content text-start">
+                <a href="#" class="text-black"><h3>Doing research for your clients</h3></a>
+                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio adipisicing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about__box about__box__4 d-flex align-items-center p-lg-5">
+              <i class="fa fa-area-chart me-5"></i>
+              <div class="box__content text-start">
+                <a href="#" class="text-black"><h3>We make the best strategies</h3></a>
+                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio adipisicing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Talk -->
+    <section class="py-5 mb-5">
+      <div class="container">
+        <div class="row align-content-center">
+          <div class="col-lg-7 p-3">
+            <h2 class="title">Let's talk about your project and see how we can work together</h2>
+            <p>Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet. Lorem ipsum dolor sit amet elit.</p>
+          </div>
+          <div class="col-lg-5 p-md-5 p-0">
+            <button class="btn btn-success ms-3 mt-4 fs-4">
+              Get started on a project
+              <i class="fa fa-arrow-right ml-2"></i>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+          <div class="footer_content">
+              <div class="footer_top">
+                  <div class="row ">
+                      <div class="col- p-4 col-lg-4 col-md-6">
+                          <div class="logo mb-2">
+                              <a class="d-flex justify-content-start " href="#">
+                                  <span class="fa-solid fa-align-right"></span>
+                                  <div class="title ">
+                                     <h4>Corp Vision</h4>
+                                     <p>Vision to your Future</p>
+                                  </div>
+                              </a>
+                          </div>
+                          <p class="description">Lorem ipsum viverra feugiat. Pellen tesque <br> libero ut justo, ultrices in ligula. Semper at <br> tempufddfel. Lorem ipsum dolor sit amet <br> Semper at elit team advisors.</p>
+                          <div class="link pt-3">
+                              <a href="#">
+                                  <span class="fa-brands fa-facebook-f"></span>
+                              </a>
+                              <a href="#">
+                                  <i class="fa-brands fa-twitter"></i>
+                              </a>
+                              <a href="#">
+                                  <i class="fa-brands fa-instagram"></i>
+                              </a>
+                              <a href="#">
+                                  <i class="fa-brands fa-linkedin-in"></i>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="col- p-4 col-lg-4 col-md-6">
+                          <h4 class="mb-4">CONTACT INFO</h4>
+                          <div class="text ">
+                              <p class="mb2">Address : Corp Vision, 343 marketing, #21 <br> cravel 1st lane street, NY - 62617.</p>
+                              <p class="mb-2">Phone Number : <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a></p>
+                              <p class="mb-2">Email : <a href="mailto:info@example.com">info@example.com</a></p>
+                              <p class="mb-2">Support : <a href="mailto:info@support.com">info@support.com</a></p>
+                          </div>
+                      </div>
+                      <div class="col- p-4 col-lg-2 col-md-6 ">
+                          <h4 class="mb-4">CATEGORIES</h4>
+                          <ul>
+                              <li><a href="#">Marketing Strategy</a></li>
+                              <li><a href="#">Startup Business</a></li>
+                              <li><a href="#">Web development</a></li>
+                          </ul>
+                      </div>
+                      <div class="col- p-4 col-lg-2 col-md-6">
+                          <h4 class="mb-4">META</h4>
+                          <ul>
+                              <li><a href="#">Log in</a></li>
+                              <li><a href="#">Entries feed</a></li>
+                              <li><a href="#">Comments feed</a></li>
+                              <li><a href="#">WordPress.org</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <hr>
+      <div class="footer_bottom text-center py-3">
+          <p>© 2023 Corp Vision All Rights Reserved | WordPress Theme by <a href="#">W3Layouts</a> .</p>
+      </div>
+    </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -67,5 +458,10 @@
     <script>
       new WOW().init();
     </script>
+    <!-- Light Box -->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+    <!-- Header -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/header.js"></script>
   </body>
 </html>

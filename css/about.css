@@ -1,0 +1,302 @@
+/* HEADER */
+header .navbar-brand .logo{
+    display: block;
+    font-size: .9rem;
+    padding-left: 25%;
+}
+header .navbar{
+    border-bottom: 1px solid rgba(231, 231, 231, 0.18);
+    transition: all 200ms linear;
+}
+header .navbar .nav-link{
+    color: white;
+}
+header .navbar .nav-link.active{
+    color: #009f4d;
+}
+.navbar.scrolled {
+    background-color: white !important;
+    transition: all 200ms linear;
+    padding: .5rem 0 .5rem 0 !important;
+}
+header .navbar.scrolled .navbar-brand span, header .navbar.scrolled .nav-link, header .navbar.scrolled .header__icon button:last-child{
+    color: #3f3a64 !important;
+}
+header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active{
+    color: #009f4d !important;
+}
+/* Banner */
+.banner .banner_content {
+    background: url(./../img/b1.jpg);
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    padding: 160px 0 60px;
+}
+
+.banner .banner_content h2 {
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.banner .banner_content .description {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.7;
+}
+/* About */
+.about__about .rec{
+    right: 10%;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    transform: rotate(45deg);
+    background-color: #009f4d;
+}
+.about__about .rec__content{
+    transform: rotate(-45deg);
+}
+.about__about .about__box{
+    background-color: #f8f9fa;
+}
+.about__about .about__box i {
+    padding: 0 1rem 0;
+    font-size: 2rem;
+    color: #009f4d;
+}
+.player {
+    border: 3px solid #009f4d;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    transition: all 0.5s;
+}
+.player i{
+    color: #009f4d;
+    line-height: 75px;
+}
+/* about__strategy */
+.about__strategy {
+    background-color: #f8f9fa;
+    padding: 3rem 0 6rem;
+}
+/* About__strategy */
+.about__generation{
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+.about__generation .player:hover{
+    transform: scale(1.2);
+}
+/* about */
+.about__profess .overlay__hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(29, 42, 55, 0.7);
+    transition: all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+}
+.profess__card__top:hover .overlay__hover{
+    visibility: visible;
+    opacity: 1;
+}
+.about__profess .content__hover{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+    padding: 46px 50px;
+    color: #ffffff;
+    z-index: 2;
+}
+.profess__card__top:hover .content__hover{
+    bottom: 25%;
+    visibility: visible;
+    opacity: 1;
+}
+.profess__card__top:hover .content__hover a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+.profess__card__top:hover .content__hover a:hover{
+    background-color:rgba(255, 255, 255, 0.3);
+}
+.about__profess .card-title{
+    cursor: pointer;
+}
+.about__profess .card-title:hover a{
+    color: #009f4d !important;
+}
+/* reason */
+.about__reason{
+    background-color: #f7f7f7;
+}
+.about__reason .about__box i {
+    padding: 2rem;
+    font-size: 2rem;
+    color: #009f4d;
+    border: 1px solid #009f4d;
+    border-radius: 7px;
+    text-align: center;
+}
+.about__reason .about__box__2 i{
+    color: #213364;
+    border-color: #213364;
+}
+.about__reason .about__box__3 i{
+    color: #ff4c4c;
+    border-color: #ff4c4c;
+}
+.about__reason .about__box__4 i{
+    color: #f48924;
+    border-color: #f48924;
+}
+.about__reason .box__content a{
+    transition: all .8s;
+}
+.about__reason .box__content a:hover{
+    color: #009f4d !important;
+}
+
+/* Footer */
+footer {
+    background-color: #151421;
+    color: white;
+}
+
+footer .footer_content .footer_top .row .logo {
+    cursor: pointer;
+}
+
+footer .footer_content .footer_top .row .logo a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer_content .footer_top .row .logo a span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: green;
+    font-size: 30px;
+    margin-right: 5px;
+    
+}
+
+footer .footer_content .footer_top .row .logo a .title h4 {
+    font-size: 30px;
+    font-weight: 700 !important;
+    margin: 0;
+}
+
+footer .footer_content .footer_top .row .logo a .title p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+footer .footer_content .footer_top .row .col-4 .description {
+    color: #97a1a9;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+footer .footer_content .footer_top .row .link  a {
+    text-decoration: none;
+    color: #97a1a9;
+    margin-right: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+footer .footer_content .footer_top .row .link a:hover {
+    color: white;
+}
+
+footer .footer_content .footer_top .row h4 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+footer .footer_content .footer_top .row .text p {
+    color: #97a1a9;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+footer .footer_content .footer_top .row .text p a {
+    text-decoration: none;
+    color: #97a1a9;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+footer .footer_content .footer_top .row .text p a:hover {
+    color: white;
+}
+
+footer .footer_content .footer_top .row ul {
+    padding-left: 0;
+}
+
+footer .footer_content .footer_top .row ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+footer .footer_content .footer_top .row ul li a {
+    text-decoration: none;
+    color: #97a1a9;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+footer .footer_content .footer_top .row ul li a:hover {
+    color: white;
+}
+
+footer hr {
+    border: none;
+    width: 100%;
+    height: 0.5px;
+    background-color: #97a1a9;
+}
+
+footer .footer_bottom {
+    color:#97a1a9;
+}
+
+footer .footer_bottom p a {
+    text-decoration: none;
+    color:#009f4d;
+}
+
+footer .footer_bottom p a:hover {
+    color: white;
+}
