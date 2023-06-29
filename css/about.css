@@ -67,7 +67,33 @@ header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active{
     font-size: 2rem;
     color: #009f4d;
 }
-/*  */
+.player {
+    border: 3px solid #009f4d;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    transition: all 0.5s;
+}
+.player i{
+    color: #009f4d;
+    line-height: 75px;
+}
+/* about__strategy */
 .about__strategy {
     background-color: #f8f9fa;
+}
+/* About__strategy */
+.about__generation{
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+.about__generation .player:hover{
+    transform: scale(1.2);
 }
