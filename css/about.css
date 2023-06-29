@@ -82,6 +82,7 @@ header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active{
 /* about__strategy */
 .about__strategy {
     background-color: #f8f9fa;
+    padding: 3rem 0 6rem;
 }
 /* About__strategy */
 .about__generation{
@@ -96,4 +97,87 @@ header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active{
 }
 .about__generation .player:hover{
     transform: scale(1.2);
+}
+/* about */
+.about__profess .overlay__hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(29, 42, 55, 0.7);
+    transition: all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+}
+.profess__card__top:hover .overlay__hover{
+    visibility: visible;
+    opacity: 1;
+}
+.about__profess .content__hover{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+    padding: 46px 50px;
+    color: #ffffff;
+    z-index: 2;
+}
+.profess__card__top:hover .content__hover{
+    bottom: 25%;
+    visibility: visible;
+    opacity: 1;
+}
+.profess__card__top:hover .content__hover a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+.profess__card__top:hover .content__hover a:hover{
+    background-color:rgba(255, 255, 255, 0.3);
+}
+.about__profess .card-title{
+    cursor: pointer;
+}
+.about__profess .card-title:hover a{
+    color: #009f4d !important;
+}
+/* reason */
+.about__reason{
+    background-color: #f7f7f7;
+}
+.about__reason .about__box i {
+    padding: 2rem;
+    font-size: 2rem;
+    color: #009f4d;
+    border: 1px solid #009f4d;
+    border-radius: 7px;
+    text-align: center;
+}
+.about__reason .about__box__2 i{
+    color: #213364;
+    border-color: #213364;
+}
+.about__reason .about__box__3 i{
+    color: #ff4c4c;
+    border-color: #ff4c4c;
+}
+.about__reason .about__box__4 i{
+    color: #f48924;
+    border-color: #f48924;
+}
+.about__reason .box__content a{
+    transition: all .8s;
+}
+.about__reason .box__content a:hover{
+    color: #009f4d !important;
 }
