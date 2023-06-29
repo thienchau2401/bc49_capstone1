@@ -53,7 +53,7 @@ header .navbar .nav-link.active{
 header .navbar.scrolled .navbar-brand span, header .navbar.scrolled .nav-link, header .navbar.scrolled .header__icon button:last-child{
     color: #3f3a64 !important;
 }
-header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active{
+header .navbar .nav-link .active,header .navbar.scrolled .nav-link .active{
     color: #009f4d !important;
 }
 
