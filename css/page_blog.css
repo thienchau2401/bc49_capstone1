@@ -53,9 +53,11 @@ header .navbar .nav-link.active{
 header .navbar.scrolled .navbar-brand span, header .navbar.scrolled .nav-link, header .navbar.scrolled .header__icon button:last-child{
     color: #3f3a64 !important;
 }
-header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active{
+header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active,ul li:first-of-type .dropdown-item {
     color: #009f4d !important;
 }
+
+
 
 /* Banner  */
 .banner .banner_content {
@@ -341,6 +343,57 @@ footer .footer_bottom p a:hover {
     fill: #151421;
 }
 
+/* BackToTop   */
+.backtotop a {
+    text-decoration: none;
+    color: #e6ebff;
+    opacity: 0.5;
+}
+
+.backtotop p {
+    color: #e6ebff;
+    font-size: inherit;
+    opacity: 0.5;
+    font-weight: 500;
+}
+.backtotop hr {
+    margin: 0;
+    border: none;
+    width: 100%;
+    height: 0.5px;
+    background-color: #97a1a9;
+}
+
+.backtotop .backtotop_content .top a {
+    font-size: 18px;
+}
+
+.backtotop_content {
+    background-color: #0D1326;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    position: fixed;
+    z-index: 999999;
+    border-radius: 8px 0 0 8px;
+}
+
+.top,.bottom {
+    padding: 25px 15px;
+    cursor: pointer;
+}
+
+.backtotop .icon:hover a {
+    color: white;
+    opacity: 1;
+}
+
+.backtotop .icon:hover p {
+    color: white;
+    opacity: 1;
+}
 
 
 
