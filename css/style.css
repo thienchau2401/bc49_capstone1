@@ -33,7 +33,6 @@ a{
     font-size: 35px;
     line-height: 45px;
     font-weight: 700;
-    color: black;
 }
 .sub__title{
     font-size: 14px;
@@ -55,3 +54,4 @@ a{
     background-color:rgba(29, 42, 55, 0.7);
     z-index: -1;
 }
+
