@@ -59,7 +59,7 @@ header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active{
     left: 95%;
 }
 .banner .carousel-control-prev,.banner .carousel-control-next{
-    top: 90%;
+    top: 85%;
     width: 0;
     z-index: 10;
 }
@@ -71,7 +71,7 @@ header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active{
     height: 50px;
     border-radius: 50%;
     background-color: white;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     color: black;
     line-height: 50px;
     /* position: relative; */
@@ -568,6 +568,36 @@ footer .footer_bottom p a:hover {
     color: white;
     border: 1px solid white;
 }
+.dark .home_Service .card {
+    border: 0;
+    background-color: #151421;
+}
 .dark .wave path{
     fill: #151421;
+}
+/* Dark's header */
+.dark .navbar.scrolled{
+    background-color: black !important;
+}
+.dark .navbar.scrolled .nav-link{
+    color: white !important;
+}
+.dark header .navbar.scrolled .navbar-brand span{
+    color: white !important;
+}
+/* Dark's header */
+.dark .dark__font__white{
+    color: white !important;
+}
+.dark .dark__font__light{
+    color: #c2c2c2 !important;
+}
+.dark .dark__bg__blk{
+    background-color: black !important;
+}
+.dark .dark__bg__blue{
+    background-color: #151421 !important;
+}
+.dark .dark__border__white{
+    border: 1px solid white !important;
 }
