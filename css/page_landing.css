@@ -790,6 +790,7 @@ footer .footer_bottom p a:hover {
 
 .dark #switchButton .fa-sun {
     display: block;
+    color: white;
 }
 
 .dark #switchButton .fa-moon {
@@ -801,8 +802,42 @@ footer .footer_bottom p a:hover {
     color: white;
     border: 1px solid white;
 }
+.dark .home_Service .card {
+    border: 0;
+    background-color: #151421;
+}
 .dark .wave path{
     fill: #151421;
+}
+/* Dark's header */
+.dark .navbar.scrolled{
+    background-color: black !important;
+}
+.dark .navbar.scrolled .nav-link{
+    color: white !important;
+}
+.dark header .navbar.scrolled .navbar-brand span{
+    color: white !important;
+}
+/* Dark's header */
+.dark .dark__font__white{
+    color: white !important;
+}
+.dark .dark__font__light{
+    color: #c2c2c2 !important;
+}
+.dark .dark__bg__blk{
+    background-color: black !important;
+}
+.dark .dark__bg__blue{
+    background-color: #151421 !important;
+}
+.dark .dark__border__white{
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.dark .dark__border__bottom{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)!important;
 }
 
 /* BackToTop   */
