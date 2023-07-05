@@ -875,10 +875,10 @@ footer .footer_bottom p a:hover {
     z-index: 999999;
     border-radius: 8px 0 0 8px;
     background: #0D1326;
-    height: 39vh;
+    
 }
 
-.top,.bottom {
+.top,.content_bottom {
     padding: 25px 15px;
     cursor: pointer;
 }

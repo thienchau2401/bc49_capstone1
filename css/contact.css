@@ -448,8 +448,9 @@ footer .footer_bottom p a:hover {
 }
 
 .backtotop_content {
-    background-color: #0D1326;
+    
     display: inline-block;
+    background-color: #0D1326;
     text-align: center;
     position: absolute;
     right: 0;
@@ -459,7 +460,7 @@ footer .footer_bottom p a:hover {
     border-radius: 8px 0 0 8px;
 }
 
-.top,.bottom {
+.top,.content_bottom {
     padding: 25px 15px;
     cursor: pointer;
 }
