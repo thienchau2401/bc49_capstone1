@@ -464,6 +464,7 @@ footer .footer_bottom p a:hover {
 
 .dark #switchButton .fa-sun {
     display: block;
+    color: white;
 }
 
 .dark #switchButton .fa-moon {
@@ -475,8 +476,115 @@ footer .footer_bottom p a:hover {
     color: white;
     border: 1px solid white;
 }
+.dark .home_Service .card {
+    border: 0;
+    background-color: #151421;
+}
 .dark .wave path{
     fill: #151421;
+}
+/* Dark's header */
+.dark .navbar.scrolled{
+    background-color: black !important;
+}
+.dark .navbar.scrolled .nav-link{
+    color: white !important;
+}
+.dark header .navbar.scrolled .navbar-brand span{
+    color: white !important;
+}
+/* Dark's header */
+.dark .dark__font__white{
+    color: white !important;
+}
+.dark .dark__font__light{
+    color: #c2c2c2 !important;
+}
+.dark .dark__bg__blk{
+    background-color: black !important;
+}
+.dark .dark__bg__blue{
+    background-color: #151421 !important;
+}
+.dark .dark__border__white{
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.dark .dark__border__bottom{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)!important;
+}
+
+/* BackToTop   */
+.backtotop a {
+    text-decoration: none;
+    color: #e6ebff;
+    opacity: 0.5;
+}
+
+.backtotop p {
+    color: #e6ebff;
+    font-size: inherit;
+    opacity: 0.5;
+    font-weight: 500;
+}
+.backtotop hr {
+    margin: 0;
+    border: none;
+    width: 100%;
+    height: 0.5px;
+    background-color: #97a1a9;
+}
+
+.backtotop .backtotop_content .top a {
+    font-size: 18px;
+}
+
+.backtotop_content {
+    background-color: #0D1326;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    position: fixed;
+    z-index: 999999;
+    border-radius: 8px 0 0 8px;
+}
+
+.top,.bottom {
+    padding: 25px 15px;
+    cursor: pointer;
+}
+
+.backtotop .icon:hover a {
+    color: white;
+    opacity: 1;
+}
+
+.backtotop .icon:hover p {
+    color: white;
+    opacity: 1;
+}
+
+.backtotop2 a {
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: #009f4d;
+    padding: 0;
+    line-height: 50px;
+    border-radius: 35px;
+    transition: 0.3s ease-out;
+    text-align: center;
 }
 
 

@@ -86,7 +86,7 @@ header .navbar .nav-link .active,header .navbar.scrolled .nav-link .active{
 }
 
 .service .service_content .service_title .sub_title {
-    font-size: 14px !important;
+    font-size: 15px !important;
     font-weight: 600 !important;
     color: #7e7d7d !important;
 }
@@ -136,6 +136,7 @@ header .navbar .nav-link .active,header .navbar.scrolled .nav-link .active{
 
 .service .service_content .service_item .card,img {
     border-radius: 0px !important;
+    border: none;
 }
 
 /* Industries  */
@@ -144,7 +145,7 @@ header .navbar .nav-link .active,header .navbar.scrolled .nav-link .active{
 }
 
 .indus .indus_content .indus_title .sub_title {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -218,7 +219,7 @@ header .navbar .nav-link .active,header .navbar.scrolled .nav-link .active{
 
 
 .tech .tech_content .tech_left .left_title .sub_title {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     color: white;
     opacity: 0.9;
@@ -275,7 +276,10 @@ header .navbar .nav-link .active,header .navbar.scrolled .nav-link .active{
 .tech .tech_content .tech_right form .form-control {
     background-color: #eee;  
     color: #7e7d7d; 
+    opacity: 0.8;
+    border: none;
     border-radius: 4px;
+    padding: 20px;
 }
 
 .tech .tech_content .tech_right form #validationTooltip01,#validationTooltip02 {
@@ -308,7 +312,7 @@ header .navbar .nav-link .active,header .navbar.scrolled .nav-link .active{
 }
 
 .solution .solution_content .title .sub_title {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -316,7 +320,7 @@ header .navbar .nav-link .active,header .navbar.scrolled .nav-link .active{
     font-size: 35px;
     font-weight: 700;
     color: #3f3a64;
-    margin: 20px 0 40px;
+    margin: 10px 0 40px;
 }
 
 .solution .solution_content .solution_group .img {
@@ -493,6 +497,7 @@ footer .footer_bottom p a:hover {
 
 .dark #switchButton .fa-sun {
     display: block;
+    color: white;
 }
 
 .dark #switchButton .fa-moon {
@@ -504,8 +509,38 @@ footer .footer_bottom p a:hover {
     color: white;
     border: 1px solid white;
 }
+.dark .home_Service .card {
+    border: 0;
+    background-color: #151421;
+}
 .dark .wave path{
     fill: #151421;
+}
+/* Dark's header */
+.dark .navbar.scrolled{
+    background-color: black !important;
+}
+.dark .navbar.scrolled .nav-link{
+    color: white !important;
+}
+.dark header .navbar.scrolled .navbar-brand span{
+    color: white !important;
+}
+/* Dark's header */
+.dark .dark__font__white{
+    color: white !important;
+}
+.dark .dark__font__light{
+    color: #c2c2c2 !important;
+}
+.dark .dark__bg__blk{
+    background-color: black !important;
+}
+.dark .dark__bg__blue{
+    background-color: #151421 !important;
+}
+.dark .dark__border__white{
+    border: 1px solid white !important;
 }
 
 /* BackToTop   */
@@ -560,6 +595,26 @@ footer .footer_bottom p a:hover {
     opacity: 1;
 }
 
+.backtotop2 a {
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: #009f4d;
+    padding: 0;
+    line-height: 50px;
+    border-radius: 35px;
+    transition: 0.3s ease-out;
+    text-align: center;
+}
 
 
 

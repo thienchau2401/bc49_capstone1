@@ -90,13 +90,14 @@ header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active{
     font-size: 35px;
     font-weight: 700;
     color: #3f3a64;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .content .content_content .content_top .top_title p {
-    opacity: 0.8;
+    
     font-size: 17px;
     line-height: 27px;
+    font-weight: 500;
 }
 
 .content .content_content .content_top .top_infor .item {
@@ -198,7 +199,7 @@ header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active{
 }
 
 .content .content_content .content_bottom {
-    padding: 30px 200px;
+    padding: 0;
 }
 
 .content .content_content .content_bottom .button .btn {
@@ -214,10 +215,13 @@ header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active{
 .content .content_content .content_bottom .form-control {
     padding: 20px;
     font-size: 18px;
+    border: none;
     margin-bottom: 15px;
     outline: none;
     border: 1px solid #eee;
     box-shadow: none;
+    opacity: 0.8;
+
 }
 
 .content .content_content .content_bottom .button .btn:hover {
@@ -343,7 +347,6 @@ footer hr {
     background-color: #97a1a9;
 }
 
-
 footer .footer_bottom {
     color:#97a1a9;
 }
@@ -373,6 +376,7 @@ footer .footer_bottom p a:hover {
 
 .dark #switchButton .fa-sun {
     display: block;
+    color: white;
 }
 
 .dark #switchButton .fa-moon {
@@ -384,10 +388,39 @@ footer .footer_bottom p a:hover {
     color: white;
     border: 1px solid white;
 }
+.dark .home_Service .card {
+    border: 0;
+    background-color: #151421;
+}
 .dark .wave path{
     fill: #151421;
 }
-
+/* Dark's header */
+.dark .navbar.scrolled{
+    background-color: black !important;
+}
+.dark .navbar.scrolled .nav-link{
+    color: white !important;
+}
+.dark header .navbar.scrolled .navbar-brand span{
+    color: white !important;
+}
+/* Dark's header */
+.dark .dark__font__white{
+    color: white !important;
+}
+.dark .dark__font__light{
+    color: #c2c2c2 !important;
+}
+.dark .dark__bg__blk{
+    background-color: black !important;
+}
+.dark .dark__bg__blue{
+    background-color: #151421 !important;
+}
+.dark .dark__border__white{
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
 
 /* BackToTop   */
 .backtotop a {
@@ -415,8 +448,9 @@ footer .footer_bottom p a:hover {
 }
 
 .backtotop_content {
-    background-color: #0D1326;
+    
     display: inline-block;
+    background-color: #0D1326;
     text-align: center;
     position: absolute;
     right: 0;
@@ -424,10 +458,9 @@ footer .footer_bottom p a:hover {
     position: fixed;
     z-index: 999999;
     border-radius: 8px 0 0 8px;
-    height: 39vh;
 }
 
-.top,.bottom {
+.top,.content_bottom {
     padding: 25px 15px;
     cursor: pointer;
 }
@@ -442,6 +475,29 @@ footer .footer_bottom p a:hover {
     opacity: 1;
 }
 
+.backtotop2 a {
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: #009f4d;
+    padding: 0;
+    line-height: 50px;
+    border-radius: 35px;
+    transition: 0.3s ease-out;
+    text-align: center;
+}
+
+
+
 
 
 
@@ -450,5 +506,18 @@ footer .footer_bottom p a:hover {
         width: 250px;
         height: 90px;
     }
-    
 }
+
+@media screen and (min-width:1000px) {
+    .content .content_content .content_bottom {
+        padding: 30px 150px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .content .content_content .content_bottom {
+        padding: 30px 200px;
+    }
+}
+    
+
