@@ -54,4 +54,21 @@ a{
     background-color:rgba(29, 42, 55, 0.7);
     z-index: -1;
 }
-
+.backToTop{
+    position: fixed;
+    width: 2.5rem;
+    height: 2.5rem;
+    bottom: 1rem;
+    right: 1rem;
+    border-radius: 50%;
+    background: #00a63f;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+}
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+  }
