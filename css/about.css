@@ -365,7 +365,7 @@ footer .footer_bottom p a:hover {
     display: block;
 }
 .dark#myBody {
-    background-color: black;
+    background-color: #151421;
 }
 
 .dark #switchButton .fa-sun {
@@ -378,8 +378,7 @@ footer .footer_bottom p a:hover {
 }
 
 .dark .card {
-    background-color: black;
-    color: white;
+    background-color: #151421;
     border: 1px solid white;
 }
 .dark .home_Service .card {
