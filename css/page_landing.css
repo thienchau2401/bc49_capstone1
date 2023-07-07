@@ -557,10 +557,6 @@ header .navbar .nav-link.active, header .navbar.scrolled .nav-link.active,ul li:
     opacity: 0.8;
 }
 
-.content .content_content .content_bottom {
-    padding: 30px 200px;
-}
-
 .content .content_content .content_bottom .button .btn {
     background-color: #00a63f;
     padding: 15px 50px !important;
@@ -964,9 +960,19 @@ footer .footer_bottom p a:hover {
     }
 }
 
+@media screen and (min-width:1000px) {
+    .content .content_content .content_bottom {
+        padding: 30px 150px;
+    }
+}
+
+
 @media screen and (min-width:1200px) {
     .solution .solution_content .solution_group .img {
         padding: 20px 130px 15px;
+    }
+    .content .content_content .content_bottom {
+        padding: 30px 200px;
     }
 }
 
